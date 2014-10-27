@@ -3508,7 +3508,7 @@ interface JQuery {
      * 
      * @param index A zero-based integer indicating which element to retrieve.
      */
-    get(index: number): HTMLElement;
+    get(index: number): Element;
     /**
      * Retrieve the elements matched by the jQuery object.
      */
@@ -3547,7 +3547,7 @@ interface JQuery {
      */
     selector: string;
     [index: string]: any;
-    [index: number]: HTMLElement;
+    [index: number]: Element;
 
     /**
      * Add elements to the set of matched elements.
